@@ -42,3 +42,4 @@ console.log(num4 * num5);
 const num6 = 10;
 const num7 = Number('5.3');
 console.log(num6 + num7);
+//teste
