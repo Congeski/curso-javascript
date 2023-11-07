@@ -1,10 +1,10 @@
 //               0123456789...
 let umaString = 'O rato roeu a roupa do rei de roma.';
 
-console.log(umaString.charAt(8)); // irá pegar o caractere que está na posição 6
+console.log(umaString.charAt(8)); // irá pegar o caractere que está na posição 8
 console.log(umaString.concat(' em', ' um')); //Não utiliza no dia a dia
 
-console.log(umaString.indexOf('roupa')); //Indice da palavra texto, retorna onde começa a palavra (Indice 3 neste exemplo).
+console.log(umaString.indexOf('roupa')); //Indice da palavra texto, retorna onde começa a palavra (Indice 14 neste exemplo).
 console.log(umaString.lastIndexOf('r', 2)); //Busca indice de trás pra frente
 
 //Expressão regulares
