@@ -1,0 +1,11 @@
+const paragrafos = document.querySelector('.paragrafos');
+const ps = paragrafos.querySelectorAll('p');
+
+const estilosBody = getComputedStyle(document.body);
+const backgroundColorBody = estilosBody.backgroundColor;
+
+
+for (let p of ps) {
+    p.style.backgroundColor = backgroundColorBody;  // irá deixar o fundo do paragrafo da cor do background.
+    p.style.color = '#FFFFFF';  // Irá deixar as letras em branco;
+}
