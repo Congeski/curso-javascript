@@ -1,4 +1,4 @@
-// Aula - Closures - quando declara função dentro de outra
+// Aula - Closures - Habilidade que a função tem de acessar seu escopo léxico 
 
 //Global
 function retornaFuncao(nome) {
